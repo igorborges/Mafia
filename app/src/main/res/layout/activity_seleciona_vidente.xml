@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.igorb.mafia.SelecionaVidente">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="-"
+        android:id="@+id/textView68"
+        android:textSize="26.5dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="-"
+        android:id="@+id/textView69"
+        android:textSize="26.5dp"
+        android:layout_below="@+id/textView68"
+        android:layout_alignParentLeft="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="-"
+        android:id="@+id/textView70"
+        android:textSize="26.5dp"
+        android:layout_below="@+id/textView69"
+        android:layout_alignParentLeft="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="-"
+        android:id="@+id/textView71"
+        android:textSize="26.5dp"
+        android:layout_below="@+id/textView70"
+        android:layout_alignParentLeft="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="-"
+        android:id="@+id/textView72"
+        android:textSize="26.5dp"
+        android:layout_below="@+id/textView71"
+        android:layout_alignParentLeft="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="-"
+        android:id="@+id/textView73"
+        android:textSize="26.5dp"
+        android:layout_below="@+id/textView72"
+        android:layout_alignParentLeft="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="-"
+        android:id="@+id/textView74"
+        android:textSize="26.5dp"
+        android:layout_below="@+id/textView73"
+        android:layout_alignParentLeft="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="-"
+        android:id="@+id/textView75"
+        android:textSize="26.5dp"
+        android:layout_below="@+id/textView74"
+        android:layout_alignParentLeft="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="-"
+        android:id="@+id/textView76"
+        android:textSize="26.5dp"
+        android:layout_below="@+id/textView75"
+        android:layout_alignParentLeft="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="-"
+        android:id="@+id/textView77"
+        android:textSize="26.5dp"
+        android:layout_below="@+id/textView76"
+        android:layout_alignParentLeft="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="-"
+        android:id="@+id/textView78"
+        android:textSize="26.5dp"
+        android:layout_below="@+id/textView77"
+        android:layout_alignParentLeft="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="-"
+        android:id="@+id/textView79"
+        android:textSize="26.5dp"
+        android:layout_below="@+id/textView78"
+        android:layout_alignParentLeft="true" />
+
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Vidente"
+        android:id="@+id/radioButton24"
+        android:checked="false"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/textView68"
+        android:layout_alignBottom="@+id/textView68" />
+
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Vidente"
+        android:id="@+id/radioButton25"
+        android:checked="false"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/textView69"
+        android:layout_alignBottom="@+id/textView69" />
+
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Vidente"
+        android:id="@+id/radioButton26"
+        android:checked="false"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/textView70"
+        android:layout_alignBottom="@+id/textView70" />
+
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Vidente"
+        android:id="@+id/radioButton27"
+        android:checked="false"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/textView71"
+        android:layout_alignBottom="@+id/textView71" />
+
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Vidente"
+        android:id="@+id/radioButton28"
+        android:checked="false"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/textView72"
+        android:layout_alignBottom="@+id/textView72" />
+
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Vidente"
+        android:id="@+id/radioButton29"
+        android:checked="false"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/textView73"
+        android:layout_alignBottom="@+id/textView73" />
+
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Vidente"
+        android:id="@+id/radioButton30"
+        android:checked="false"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/textView74"
+        android:layout_alignBottom="@+id/textView74" />
+
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Vidente"
+        android:id="@+id/radioButton31"
+        android:checked="false"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/textView75"
+        android:layout_alignBottom="@+id/textView75" />
+
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Vidente"
+        android:checked="false"
+        android:id="@+id/radioButton32"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/textView76"
+        android:layout_alignBottom="@+id/textView76" />
+
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Vidente"
+        android:id="@+id/radioButton33"
+        android:checked="false"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/textView77"
+        android:layout_alignBottom="@+id/textView77" />
+
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Vidente"
+        android:id="@+id/radioButton34"
+        android:checked="false"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/textView78"
+        android:layout_alignBottom="@+id/textView78" />
+
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Vidente"
+        android:id="@+id/radioButton35"
+        android:checked="false"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/textView79"
+        android:layout_alignBottom="@+id/textView79" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Próximo"
+        android:id="@+id/button46"
+        android:background="@android:color/holo_green_dark"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/radioButton35"
+        android:layout_alignEnd="@+id/radioButton35" />
+</RelativeLayout>

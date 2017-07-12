@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.igorb.mafia">
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".Mafia"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".CidadeDorme"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".LoboAcorda"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".SelecionaLobo"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".LoboMata"
+            android:screenOrientation="portrait"></activity>
+        <!--
+             ATTENTION: This was auto-generated to add Google Play services to your project for
+             App Indexing.  See https://g.co/AppIndexing/AndroidStudio for more information.
+        -->
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity
+            android:name=".LoboDorme"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".PutaAcorda"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".PutaSalva"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".SelecionaPuta"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".PutaDorme"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".VidenteAcorda"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".VidenteVe"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".VidenteDorme"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".SelecionaVidente"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".CidadeAcorda"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".Anuncio"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".Votacao"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".CidadeMata"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".PutaMorta"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".VidenteMorto"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name=".TipoJogo"></activity>
+    </application>
+
+</manifest>

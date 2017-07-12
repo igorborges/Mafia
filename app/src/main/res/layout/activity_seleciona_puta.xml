@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.igorb.mafia.SelecionaPuta">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="-"
+        android:id="@+id/textView29"
+        android:textSize="26.5dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="-"
+        android:id="@+id/textView30"
+        android:textSize="26.5dp"
+        android:layout_below="@+id/textView29"
+        android:layout_alignParentLeft="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="-"
+        android:id="@+id/textView31"
+        android:textSize="26.5dp"
+        android:layout_below="@+id/textView30"
+        android:layout_alignParentLeft="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="-"
+        android:id="@+id/textView32"
+        android:textSize="26.5dp"
+        android:layout_below="@+id/textView31"
+        android:layout_alignParentLeft="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="-"
+        android:id="@+id/textView33"
+        android:textSize="26.5dp"
+        android:layout_below="@+id/textView32"
+        android:layout_alignParentLeft="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="-"
+        android:id="@+id/textView34"
+        android:textSize="26.5dp"
+        android:layout_below="@+id/textView33"
+        android:layout_alignParentLeft="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="-"
+        android:id="@+id/textView35"
+        android:textSize="26.5dp"
+        android:layout_below="@+id/textView34"
+        android:layout_alignParentLeft="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="-"
+        android:id="@+id/textView36"
+        android:textSize="26.5dp"
+        android:layout_below="@+id/textView35"
+        android:layout_alignParentLeft="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="-"
+        android:id="@+id/textView37"
+        android:textSize="26.5dp"
+        android:layout_below="@+id/textView36"
+        android:layout_alignParentLeft="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="-"
+        android:id="@+id/textView38"
+        android:textSize="26.5dp"
+        android:layout_below="@+id/textView37"
+        android:layout_alignParentLeft="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="-"
+        android:id="@+id/textView39"
+        android:textSize="26.5dp"
+        android:layout_below="@+id/textView38"
+        android:layout_alignParentLeft="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="-"
+        android:id="@+id/textView40"
+        android:textSize="26.5dp"
+        android:layout_below="@+id/textView39"
+        android:layout_alignParentLeft="true" />
+
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Puta"
+        android:id="@+id/radioButton"
+        android:checked="false"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/radioButton15"
+        android:layout_alignBaseline="@+id/textView29" />
+
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Puta"
+        android:id="@+id/radioButton13"
+        android:checked="false"
+        android:layout_below="@+id/radioButton"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignBaseline="@+id/textView30" />
+
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Puta"
+        android:id="@+id/radioButton14"
+        android:checked="false"
+        android:layout_below="@+id/radioButton13"
+        android:layout_alignLeft="@+id/radioButton15"
+        android:layout_alignStart="@+id/radioButton15"
+        android:layout_alignBaseline="@+id/textView31" />
+
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Puta"
+        android:id="@+id/radioButton15"
+        android:checked="false"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/radioButton14"
+        android:layout_alignParentLeft="true"
+        android:layout_alignBaseline="@+id/textView32" />
+
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Puta"
+        android:id="@+id/radioButton16"
+        android:checked="false"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/radioButton15"
+        android:layout_alignParentLeft="true"
+        android:layout_alignBaseline="@+id/textView33" />
+
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Puta"
+        android:id="@+id/radioButton17"
+        android:checked="false"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/radioButton16"
+        android:layout_alignParentLeft="true"
+        android:layout_alignBaseline="@+id/textView34" />
+
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Puta"
+        android:id="@+id/radioButton18"
+        android:checked="false"
+        android:layout_below="@+id/radioButton17"
+        android:layout_alignLeft="@+id/radioButton17"
+        android:layout_alignStart="@+id/radioButton17"
+        android:layout_alignBaseline="@+id/textView35" />
+
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Puta"
+        android:id="@+id/radioButton19"
+        android:checked="false"
+        android:layout_below="@+id/radioButton18"
+        android:layout_alignLeft="@+id/radioButton20"
+        android:layout_alignStart="@+id/radioButton20"
+        android:layout_alignBaseline="@+id/textView36" />
+
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Puta"
+        android:checked="false"
+        android:id="@+id/radioButton20"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/radioButton19"
+        android:layout_alignParentLeft="true"
+        android:layout_alignBaseline="@+id/textView37" />
+
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Puta"
+        android:id="@+id/radioButton21"
+        android:checked="false"
+        android:layout_below="@+id/radioButton20"
+        android:layout_alignLeft="@+id/radioButton20"
+        android:layout_alignStart="@+id/radioButton20"
+        android:layout_alignBaseline="@+id/textView38" />
+
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Puta"
+        android:id="@+id/radioButton22"
+        android:checked="false"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/radioButton21"
+        android:layout_alignParentLeft="true"
+        android:layout_alignBaseline="@+id/textView39" />
+
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Puta"
+        android:id="@+id/radioButton23"
+        android:checked="false"
+        android:layout_below="@+id/radioButton22"
+        android:layout_alignLeft="@+id/radioButton22"
+        android:layout_alignStart="@+id/radioButton22"
+        android:layout_alignBaseline="@+id/textView40" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Próximo"
+        android:id="@+id/button16"
+        android:background="@android:color/holo_green_dark"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+</RelativeLayout>
